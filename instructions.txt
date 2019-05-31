@@ -1,0 +1,38 @@
+Instructions:
+
+open terminal and type
+pip install dash==0.36.0  
+pip install dash-html-components==0.13.5  
+pip install dash-core-components==0.43.0  
+pip install dash-table==3.1.11  
+pip install dash-daq==0.1.0 
+pip install flask 
+
+find the path where you have stored the folder
+example: C://anirudhmuhnot/desktop/dashboard
+note this path
+
+#now again in terminal type
+cd 'pathname'
+
+
+#example cd C://anirudh/desktop/dashboard
+
+#now again type in terminal
+python realtime.py
+
+# this is to start the realtime dashboard
+#now open a new terminal and type
+cd 'pathname'
+
+#example cd C://anirudh/desktop/dashboard
+#now type
+python daily.py
+
+#now in your browser type
+http://0.0.0.0:9600
+#to start the real-time dashboard or
+http://0.0.0.0:9605
+#to start the daily dashboard
+
+#in the application click on view after making all the setting to view the dashboard
